@@ -17,7 +17,7 @@
     - { line: '# The line below allows syntax highlighting for files with the command "ccat".' }
     - { line: "alias ccat='pygmentize -O style=monokai -f terminal -g'" }
 
-# Set up Cookie Cutter system-wide
-- name: Install Cookie Cutter for Python 2.7
-  pip:
-    name: cookiecutter   
+# # Set up Cookie Cutter system-wide
+# - name: Install Cookie Cutter for Python 2.7
+#   pip:
+#     name: cookiecutter   
