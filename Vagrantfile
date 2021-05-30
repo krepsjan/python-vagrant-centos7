@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
         v.customize ["modifyvm", :id, "--ioapic", "on"]
         v.customize ["modifyvm", :id, "--audio", "none"]
         v.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
-        v.name = "python-vagrant-centos7"
+        v.name = "testy-dev-local"
     end
 
     # Set up a private IP that can be added to the host machine's hosts file
